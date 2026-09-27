@@ -62,7 +62,7 @@ Statistics       ML models
    Interactive dashboard
 ```
 
-### Key Analysis
+# Key Analysis
 ## Rental Trends
 
 Rental trends were analysed across Australian states and territories between 2019 and 2023.
