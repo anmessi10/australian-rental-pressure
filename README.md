@@ -64,14 +64,14 @@ Statistics       ML models
 
 ### Key Analysis
 ## Rental Trends
-```text
+
 Rental trends were analysed across Australian states and territories between 2019 and 2023.
 
 Median weekly rents increased across all eight states and territories during this period, although the magnitude of change varied.
-```
+
 
 ## Rental Affordability
-```text
+
 A project-created affordability measure was calculated as:
 Annualised Median Weekly Rent
 -------------------------------- × 100
@@ -80,15 +80,15 @@ Median Employee Income
 The measure is used to compare changes in rental costs relative to employee income.
 
 It is a project-created indicator and should not be interpreted as an official rental-stress measure.
-```
+
 ## Population Growth
-```text
+
 Population growth between 2019 and 2023 was analysed alongside changes in rental affordability.
 
 The relationship was treated as exploratory because the analysis contains only eight state and territory observations.
-```
+
 ## Housing Supply
-```text
+
 Building approvals were analysed at SA2 level using:
 
 New residential dwelling approvals per 1,000 residents
@@ -98,9 +98,9 @@ The approval period analysed was:
 July 2025 – June 2026
 
 Approvals represent planned/approved residential activity rather than completed housing supply.
-```
+
 ## Historical Rental Pressure Index
-```text
+
 A custom Historical Rental Pressure Index was developed using three indicators over the aligned 2019–2023 period:
 
 - Rental growth
@@ -110,9 +110,9 @@ A custom Historical Rental Pressure Index was developed using three indicators o
 The indicators were standardised and combined into a relative 0–100 index.
 
 The index is a project-created analytical measure and is not an official Australian statistic.
-```
+
 ## Machine Learning
-```text
+
 SA2-level 2021 Census data was used to investigate whether demographic and economic characteristics could predict estimated weekly rental prices.
 
 Two baseline models were evaluated:
@@ -130,10 +130,10 @@ The Random Forest model performed better under five-fold cross-validation.
 The Random Forest achieved a mean R² of approximately 0.80 across the five folds.
 
 Model interpretation is predictive rather than causal. In particular, feature importance does not represent an independent causal effect.
-```
+
 
 ## Dashboard
-```text
+
 An interactive Power BI dashboard was developed to present the main findings.
 
 The dashboard includes:
@@ -147,10 +147,10 @@ The dashboard includes:
 Dashboard file:
 
 Australian_Rental_Pressure_Dashboard.pbix
-```
+
 
 ## Limitations
-```text
+
 Important limitations include:
 
 - Different datasets cover different time periods.
@@ -160,10 +160,10 @@ Important limitations include:
 - State-level correlation analysis uses only eight observations.
 - Machine-learning models are based on 2021 SA2 data.
 - Random cross-validation does not explicitly account for spatial relationships between neighbouring regions.
-```
+
 
 ## Future Improvements
-```text
+
 Potential extensions include:
 
 - Longer historical SA2-level rental data
@@ -176,10 +176,10 @@ Potential extensions include:
 - Automated data-refresh pipelines
 - Longitudinal SA2-level analysis
 - Streamlit dashboard development
-```
+
 
 ## Project Structure
-```text
+
 
 australian-rental-pressure/
 │
@@ -209,23 +209,23 @@ australian-rental-pressure/
 ├── RESULTS.md
 ├── requirements.txt
 └── .gitignore
-```
+
 
 ## Reproducibility
-```text
+
 The project is structured so that the data-processing and analysis stages can be reproduced through the Python scripts contained in src/.
 
 The processed datasets used for analysis are stored separately from the original raw data.
 
-```
+
 
 ## Author
-```text
+
 
 Anish Kulkarni
 
 Master of Information Technology
 UNSW Sydney
 
-```
+
 
