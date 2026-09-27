@@ -217,6 +217,9 @@ The project is structured so that the data-processing and analysis stages can be
 
 The processed datasets used for analysis are stored separately from the original raw data.
 
+## Dashboard
+
+![Australian Rental Pressure Dashboard](results/figures/dashboard_overview.png)
 
 
 ## Author
