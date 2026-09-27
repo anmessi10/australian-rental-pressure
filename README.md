@@ -179,7 +179,7 @@ Potential extensions include:
 
 
 ## Project Structure
-
+```text
 
 australian-rental-pressure/
 │
@@ -209,7 +209,7 @@ australian-rental-pressure/
 ├── RESULTS.md
 ├── requirements.txt
 └── .gitignore
-
+```
 
 ## Reproducibility
 
